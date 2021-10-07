@@ -19,6 +19,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ConstructBinaryTreeFromInorderAndPostorderTraversal.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal.java" />
+              <option name="questionId" value="106" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree.java">
           <value>
             <LeetcodeEditor>
@@ -56,6 +65,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/LeafSimilarTrees.java" />
               <option name="questionId" value="904" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/MaximumBinaryTree.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumBinaryTree.java" />
+              <option name="questionId" value="654" />
             </LeetcodeEditor>
           </value>
         </entry>

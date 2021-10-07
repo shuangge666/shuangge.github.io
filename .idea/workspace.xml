@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="" />
+    <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ConstructBinaryTreeFromInorderAndPostorderTraversal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/MaximumBinaryTree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/CCF/P2021_0902.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/CCF/P2021_0902.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/FindModeInBinarySearchTree$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/FindModeInBinarySearchTree$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +27,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1yts2X2KqtfXkEgzX2dEVX8EnAc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
-  <component name="RunManager" selected="Application.P2021_0902">
+  <component name="RunManager" selected="Application.P2021_0901">
     <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streamStudy.Filter" />
       <module name="LeetCode" />
@@ -59,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2021_0902" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="P2021_0902" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCF.P2021_0902" />
       <module name="LeetCode" />
       <extension name="coverage">
@@ -87,13 +108,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P2021_0902" />
+        <item itemvalue="Application.P2021_0901" />
         <item itemvalue="Application.TestString" />
         <item itemvalue="Application.Filter" />
-        <item itemvalue="Application.P2021_0901" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,44 +136,26 @@
       <workItem from="1633397080733" duration="3752000" />
       <workItem from="1633440672146" duration="5478000" />
       <workItem from="1633485227427" duration="6879000" />
+      <workItem from="1633611981402" duration="63000" />
+      <workItem from="1633612053335" duration="1748000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="275" y="27" key="#Notifications" timestamp="1633091308341">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="275" y="27" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1633091308341" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633082275129">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1633082275129" />
-    <state width="998" height="134" key="GridCell.Tab.0.bottom" timestamp="1633400870625">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="998" height="134" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1633400870625" />
-    <state width="998" height="134" key="GridCell.Tab.0.center" timestamp="1633400870625">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="998" height="134" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1633400870625" />
-    <state width="998" height="134" key="GridCell.Tab.0.left" timestamp="1633400870624">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="998" height="134" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1633400870624" />
-    <state width="998" height="134" key="GridCell.Tab.0.right" timestamp="1633400870625">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="998" height="134" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1633400870625" />
-    <state x="183" y="10" width="1183" height="717" key="SettingsEditor" timestamp="1633135549706">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="183" y="10" width="1183" height="717" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1633135549706" />
-    <state x="363" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1633485227309">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="363" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1633485227309" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

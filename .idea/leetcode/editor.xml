@@ -44,6 +44,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/FindBottomLeftTreeValue.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/FindBottomLeftTreeValue.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/FindBottomLeftTreeValue.java" />
+              <option name="questionId" value="513" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/FindModeInBinarySearchTree.java">
           <value>
             <LeetcodeEditor>
@@ -130,6 +139,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumWindowSubstring.java" />
               <option name="questionId" value="76" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/PathSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/PathSum.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/PathSum.java" />
+              <option name="questionId" value="112" />
             </LeetcodeEditor>
           </value>
         </entry>

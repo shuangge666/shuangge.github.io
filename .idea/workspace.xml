@@ -197,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="253" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1633665604815" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1634441077967">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1634441154692">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1634441077967" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1634441154692" />
     <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1634047950654">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -221,10 +221,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="545" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1634397851056" />
+    <state x="392" y="84" key="MultipleFileMergeDialog" timestamp="1634441219828">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="84" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1634441219828" />
     <state x="183" y="10" width="1183" height="717" key="SettingsEditor" timestamp="1633135549706">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="183" y="10" width="1183" height="717" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1633135549706" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1634441158358">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1634441158358" />
     <state x="363" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1634433143242">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

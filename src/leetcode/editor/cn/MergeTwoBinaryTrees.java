@@ -58,19 +58,27 @@ class Solution {
         return root;
     }
     public TreeNode dfs(TreeNode root,TreeNode root1,TreeNode root2){
-        if(root1==null&&root2==null)
-            return null;
-        if(root==null)
-            root=new TreeNode();
-        if(root1!=null&&root2==null)
-            root.val=root1.val;
-        else if(root1==null&&root2!=null)
-            root.val=root2.val;
-        else if(root1!=null&&root2!=null)
-            root.val=root1.val+root2.val;
+//        if(root1==null&&root2==null)
+////            return null;
+//////        if(root==null)
+//////            root=new TreeNode();
+////        if(root1!=null&&root2==null)
+////            root=new TreeNode(root1.val);
+////        else if(root1==null&&root2!=null)
+////            root=new TreeNode(root2.val);
+////        else if(root1!=null&&root2!=null)
+////            root=new TreeNode(root1.val+root2.val);
+////        root.left=dfs(root.left,root1.left,root2.left);
+////        root.right=dfs(root.right,root1.right,root2.right);
+////        return root;
+        if(root1==null)
+            return root2;
+        if(root2==null)
+            return root1;
+        root=new TreeNode(root1.val+root2.val);
         root.left=dfs(root.left,root1.left,root2.left);
         root.right=dfs(root.right,root1.right,root2.right);
-        return root;
+        return  root;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

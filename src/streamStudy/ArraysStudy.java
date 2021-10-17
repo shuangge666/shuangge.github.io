@@ -1,6 +1,6 @@
 package streamStudy;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class ArraysStudy {
     public static void main(String[] args) {
@@ -21,5 +21,11 @@ public class ArraysStudy {
         }
         long s4=System.currentTimeMillis();
         System.out.println("线性遍历获得的索引是："+val+"耗时为："+(s4-s3));
+        List<Integer> key=new ArrayList<>();
+        key.addAll(Arrays.asList(1,2,3,4,5,6,7,8));
+        List<Integer> vval=new ArrayList<>();
+        vval.addAll(Arrays.asList(1,2,3,4,5,6,7,8));
+        Map<List<Integer>, List<Integer>> listListMap = Collections.singletonMap(key, vval);
+
     }
 }

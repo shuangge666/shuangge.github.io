@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CoinChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CombinationSumIv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/IntegerBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LastStoneWeightIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/OnesAndZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/PartitionEqualSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/PerfectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/TargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/UniquePathsIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/WordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamStudy/ListMaxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamStudy/ReduceStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamStudy/TupleTest.java" afterDir="false" />
+    <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HouseRobberIi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HouseRobberIii.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/CCF/P2021_0902.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/CCF/P2021_0902.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/FindModeInBinarySearchTree$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/FindModeInBinarySearchTree$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/MergeTwoBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/MergeTwoBinaryTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamStudy/ArraysStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamStudy/ArraysStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,8 +150,31 @@
       <workItem from="1633665316221" duration="318000" />
       <workItem from="1634047396191" duration="583000" />
       <workItem from="1634362761853" duration="21151000" />
-      <workItem from="1634433143748" duration="7591000" />
+      <workItem from="1634433143748" duration="9272000" />
+      <workItem from="1634450301000" duration="8759000" />
     </task>
+    <task id="LOCAL-00001" summary="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
+      <created>1634441156083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634441156084</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
+      <created>1634441284855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634441284855</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
+      <created>1634441297875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634441297875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,10 +202,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="253" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1633665604815" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1634441154692">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1634441296236">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1634441154692" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1634441296236" />
     <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1634047950654">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -229,14 +234,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="183" y="10" width="1183" height="717" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1633135549706" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1634441158358">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1634441305229">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1634441158358" />
-    <state x="363" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1634433143242">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1634441305229" />
+    <state x="363" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1634450300458">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="363" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1634433143242" />
+    <state x="363" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1634450300458" />
     <state x="57" y="0" key="new project wizard" timestamp="1634047978691">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

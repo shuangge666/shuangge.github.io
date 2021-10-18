@@ -19,3 +19,91 @@
 ### 5. 513题 找树左下角的值
 这道题思路是用广度优先搜索，将每层的节点List放入一个外层List，最后一层最左边的节点的值就是外层List
 最后一个元素(也是一个List)的第0个元素的val。
+
+### 6. 718题 最长重复子数组和 1143. 最长公共子序列 
+首先，一般涉及到比较两个数组或者字符串的问题，dp数组都是二维的，一维用于推nums1,一维用于推nums2
+这两道题简直是神仙题目，太经典了！！！最长重复子数组是求数组(或者字符串)中连续的子数组(串)的最大长度的模板，
+最长公共子序列是求数组或字符串中离散的公共子序列的最大长度的模板。二者的区别在于递推公式和dp数组的定义，以及
+是否需要维护一个ans以记录最大值(最长重复子数组需要，LCS不需要)。
+
+
+
+- 最长重复子数组的题解
+```java
+public class MaximumLengthOfRepeatedSubarray{
+    public static void main(String[] args) {
+        Solution solution = new MaximumLengthOfRepeatedSubarray().new Solution();
+
+    }
+
+//leetcode submit region begin(Prohibit modification and deletion)
+class Solution {
+    public int findLength(int[] nums1, int[] nums2) {
+        //最长公共子序列的dp[i][j]含义：nusm1前i个元素和nums2前j个元素的最长公共子数组的长度
+        //最长重复子数组dp[i][j]含义：以nums1[i-1]结尾的子数组和以nums2[j-1]结尾的子数组的最长公共子数组的长度
+        //对比：最长公共子序列求得的"序列"De最大长度，序列在原数组中不一定是连续的，所以等价于是离散的，所以
+        //递推公式中直接比较text1[i-1]和text2[j-1]是否相等，如果相等当然是dp[i-1][j-1]+1,如果不等，由于是离散的
+        //,所以dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1]);
+        //而最长重复子数组中，要求的是子数组，这段子数组是连续的，这种情况dp[i][j]的含义就是以nums1[i-1]结尾且以
+        //nums2[j-1]结尾的最长重复子数组的长度。如果nums1[i-1]和nums2[j-1]相等，当然dp[i][j]=dp[i-1][j-1]+1;
+        //但是如果不等，那么说明不存在既以nums1[i-1]结尾有以nums2[j-1]结尾的最长重复子数组，所以dp[i][j]=0,并且由于求得的
+        //最长的重复子数组长度，所以要维护一个变量ans，在递推过程中不断更新ans，使得ans取得的是最大值，最后返回ans即可。
+        int[][]dp=new int[nums1.length+1][nums2.length+1];
+        int ans=0;
+        for(int i=1;i<= nums1.length;++i){
+            for(int j=1;j<=nums2.length;++j){
+                if(nums1[i-1]==nums2[j-1])
+                    dp[i][j]=dp[i-1][j-1]+1;
+                else{
+                    dp[i][j]=0;
+                }
+                ans=Math.max(ans,dp[i][j]);
+            }
+        }
+        return ans;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+
+}
+
+```
+
+- LCS题解
+ ```java
+public class LongestCommonSubsequence{
+    public static void main(String[] args) {
+        Solution solution = new LongestCommonSubsequence().new Solution();
+
+    }
+
+//leetcode submit region begin(Prohibit modification and deletion)
+class Solution {
+    public int longestCommonSubsequence(String text1, String text2) {
+        //dp[i][j]含义：text 1前i个字符和text2前j个字符的最大公共子序列的长度
+        int[][]dp=new int[text1.length()+1][text2.length()+1];
+        //text[i-1]==text[j-1]::dp[i][j]=dp[i-1][j-1]+1
+        //text[i-1]!=text[j-1]::dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1])
+        for(int i=1;i<=text1.length();++i)
+            for(int j=1;j<=text2.length();++j){
+                if(text1.charAt(i-1)==text2.charAt(j-1)){
+                    dp[i][j]=dp[i-1][j-1]+1;
+                }
+                else{
+                    dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
+        return dp[text1.length()][text2.length()];
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+
+}
+
+```
+### 7.  53最大子序列和
+第53题求解的是最大连续子序列的和，看到连续子序列，所以dp数组的定义应该是dp[i]代表以nums[i]结尾的连续子数组的最大和
+，并且还要维护一个ans记录递推过程中的最大值，这是第一反应就应该做出来的判断。
+然后，看递推公式。比如nums=[2,1,-3,4,-1,2,1,-5,4],对于dp[i],如果dp[i-1]<0，那肯定不能加上dp[i-1]，不然就变小了，
+所以dp[i]=nums[i];如果dp[i-1]>0,当然就得加上dp[i-1];在判断结束后，更新ans，使得ans最大。
+

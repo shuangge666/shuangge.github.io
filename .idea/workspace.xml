@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HouseRobberIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HouseRobberIii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumLengthOfRepeatedSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streamStudy/ArraysStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamStudy/ArraysStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +152,7 @@
       <workItem from="1634362761853" duration="21151000" />
       <workItem from="1634433143748" duration="9272000" />
       <workItem from="1634450301000" duration="8759000" />
+      <workItem from="1634486982220" duration="5645000" />
     </task>
     <task id="LOCAL-00001" summary="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
       <created>1634441156083</created>
@@ -238,10 +239,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1634441305229" />
-    <state x="363" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1634450300458">
+    <state x="363" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1634486990259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="363" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1634450300458" />
+    <state x="363" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1634486990259" />
     <state x="57" y="0" key="new project wizard" timestamp="1634047978691">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -51,6 +51,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ContainsDuplicateIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ContainsDuplicateIi.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ContainsDuplicateIi.java" />
+              <option name="questionId" value="219" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree.java">
           <value>
             <LeetcodeEditor>
@@ -139,6 +148,24 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/LongestPalindromicSubstring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/LongestPalindromicSubstring.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/LongestPalindromicSubstring.java" />
+              <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/LongestSubstringWithoutRepeatingCharacters.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java" />
+              <option name="questionId" value="3" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumDepthOfBinaryTree.java">
           <value>
             <LeetcodeEditor>
@@ -203,6 +230,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumSizeSubarraySum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/MinimumSizeSubarraySum.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumSizeSubarraySum.java" />
+              <option name="questionId" value="209" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumWindowSubstring.java">
           <value>
             <LeetcodeEditor>
@@ -248,6 +284,24 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/RangeSumOfBst.java" />
               <option name="questionId" value="975" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/RepeatedDnaSequences.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/RepeatedDnaSequences.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/RepeatedDnaSequences.java" />
+              <option name="questionId" value="187" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ReverseLinkedList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ReverseLinkedList.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ReverseLinkedList.java" />
+              <option name="questionId" value="206" />
             </LeetcodeEditor>
           </value>
         </entry>

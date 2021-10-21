@@ -67,7 +67,7 @@ class Solution {
     public int ans=0;
     public int k=0;
     public int maxScore(int[] cardPoints, int k) {
-
+        return 0;
     }
     //回溯法超时
     public void dfs(int[]nums,int cnt,int left,int right,int sum){

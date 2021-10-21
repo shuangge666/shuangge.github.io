@@ -47,7 +47,7 @@ public class ContainsDuplicateIii{
 class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         //这道题挺难的，解法也很值得深究
-
+        return true;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

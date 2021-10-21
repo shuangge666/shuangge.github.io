@@ -22,35 +22,47 @@ package leetcode.editor.cn;
 // Related Topics 数组 哈希表 滑动窗口 👍 326 👎 0
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class ContainsDuplicateIi{
     public static void main(String[] args) {
         Solution solution = new ContainsDuplicateIi().new Solution();
-        
+
     }
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
-        int left=0,right=0;
         boolean ans=false;
-        Map<Integer,Integer>map=new HashMap<>();
-        for(int i=1;i<=k-1;++i){
-            map.put(nums[right],map.getOrDefault(nums[right],0)+1);
+        int left=0,right=0;
+        Set<Integer> set=new HashSet<>();
+        while(right<Math.min(k,nums.length)){//一定要注意循环结束后right的指向啊！！！
+            set.add(nums[right]);
             ++right;
         }
-        ++right;
+        --right;//循环结束后，如果k<nums.length,那么right此时是指向nums[k]的，但是set中只有nums[0,k-1]
+        if(k>=nums.length){
+            if(set.size()==nums.length)
+                return false;
+            else
+                return true;
+        }
         while(right<nums.length){
-            map.put(nums[right],map.getOrDefault(nums[right],0)+1);
-            for(Map.Entry<Integer,Integer>entry:map.entrySet()){
-                if(map.get(entry.getKey())>1){
-                    ans=true;
-                    break;
-                }
-            }
-            ++left;
             ++right;
+            if(right==nums.length){
+                break;
+            }
+            set.add(nums[right]);
+            if(set.size()<right-left+1){
+                ans=true;
+                break;
+            }
+            else{
+                set.remove(nums[left]);
+                ++left;
+            }
         }
         return ans;
     }

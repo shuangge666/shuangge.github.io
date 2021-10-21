@@ -107,3 +107,12 @@ class Solution {
 然后，看递推公式。比如nums=[2,1,-3,4,-1,2,1,-5,4],对于dp[i],如果dp[i-1]<0，那肯定不能加上dp[i-1]，不然就变小了，
 所以dp[i]=nums[i];如果dp[i-1]>0,当然就得加上dp[i-1];在判断结束后，更新ans，使得ans最大。
 
+### 8. 220.存在重复元素 TreeSet+滑动窗口
+TreeSet是基于TreeMap而来，底层是红黑树，查找为logn,插入、删除最多自旋3次
+TreeSet的floor(value)，返回小于等于value的最大值，如果集合中没有就返回null；
+ceiling(Value)，返回集合中大于等于value的最小值，如果集合中没有就返回null；
+lower(value),返回集合中小于value的最大值
+暴力算法是二重循环。可以使用使用TreeSet优化内层循环，因为TreeSet的查找是logn，
+使用floor查找小于等于nums[i]的最大元素；使用ceiling(nums[i])查找大于等于i的
+最大值，找到了且满足调价肯定就存在这样的i，j，返回true；
+题解：https://leetcode-cn.com/problems/contains-duplicate-iii/solution/gong-shui-san-xie-yi-ti-shuang-jie-hua-d-dlnv/

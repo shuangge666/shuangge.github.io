@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
+      <change afterPath="$PROJECT_DIR$/src/streamStudy/TreeSetStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/ContainsDuplicateIii$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/ContainsDuplicateIii$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/ContainsDuplicateIii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/ContainsDuplicateIii.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters$Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/ContainsDuplicateIii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ContainsDuplicateIii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumPointsYouCanObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streamStudy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamStudy/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.TreeSetStudy">
     <configuration name="ListMaxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streamStudy.ListMaxTest" />
       <module name="LeetCode" />
@@ -107,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TupleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamStudy.TupleTest" />
+    <configuration name="TreeSetStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamStudy.TreeSetStudy" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeSetStudy" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.ListMaxTest" />
         <item itemvalue="Application.ReduceStudy" />
-        <item itemvalue="Application.TupleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +164,7 @@
       <workItem from="1634532256620" duration="1502000" />
       <workItem from="1634634771599" duration="18613000" />
       <workItem from="1634722142387" duration="8786000" />
-      <workItem from="1634804340414" duration="2526000" />
+      <workItem from="1634804340414" duration="7160000" />
     </task>
     <task id="LOCAL-00001" summary="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
       <created>1634441156083</created>

@@ -116,3 +116,7 @@ lower(value),返回集合中小于value的最大值
 使用floor查找小于等于nums[i]的最大元素；使用ceiling(nums[i])查找大于等于i的
 最大值，找到了且满足调价肯定就存在这样的i，j，返回true；
 题解：https://leetcode-cn.com/problems/contains-duplicate-iii/solution/gong-shui-san-xie-yi-ti-shuang-jie-hua-d-dlnv/
+
+### 9.424题 替换后的最长重复字符
+这道题是一道经典的滑动窗口题目，字节跳动考了。官方题解：
+

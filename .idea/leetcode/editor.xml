@@ -166,6 +166,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/LongestRepeatingCharacterReplacement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/LongestRepeatingCharacterReplacement.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/LongestRepeatingCharacterReplacement.java" />
+              <option name="questionId" value="424" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters.java">
           <value>
             <LeetcodeEditor>

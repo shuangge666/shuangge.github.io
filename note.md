@@ -120,3 +120,6 @@ lower(value),返回集合中小于value的最大值
 ### 9.424题 替换后的最长重复字符
 这道题是一道经典的滑动窗口题目，字节跳动考了。官方题解：
 https://leetcode-cn.com/problems/longest-repeating-character-replacement/solution/ti-huan-hou-de-zui-chang-zhong-fu-zi-fu-eaacp/
+
+### 10. 424题同类型题目之一：1004 最大连续的1的个数III
+这道题和上面一题非常相似，只不过这道题简单多了，用一个变量维护窗口中的1的个数即可

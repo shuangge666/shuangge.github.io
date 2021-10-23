@@ -179,6 +179,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubarrayOf1sAfterDeletingOneElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/LongestSubarrayOf1sAfterDeletingOneElement.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubarrayOf1sAfterDeletingOneElement.java" />
+              <option name="questionId" value="1586" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters.java">
           <value>
             <LeetcodeEditor>

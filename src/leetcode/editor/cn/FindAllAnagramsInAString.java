@@ -37,7 +37,10 @@ package leetcode.editor.cn;
 // 
 // Related Topics 哈希表 字符串 滑动窗口 👍 632 👎 0
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FindAllAnagramsInAString{
     public static void main(String[] args) {
@@ -48,7 +51,32 @@ public class FindAllAnagramsInAString{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-    return null;
+        List<Integer>ans=new ArrayList<>();
+        Map<Character,Integer> map1=new HashMap<>();//p的哈希表
+        for(int i=0;i<p.length();++i){
+            map1.put(p.charAt(i),map1.getOrDefault(p.charAt(i),0)+1);
+        }
+        Map<Character,Integer>map2=new HashMap<>();//滑动窗口的哈希表
+        int left=0,right=0;
+        char[]arr=s.toCharArray();
+        for(;right<s.length();++right){
+            while(right<arr.length&&(right-left+1)<p.length()){
+                map2.put(arr[right],map2.getOrDefault(arr[right],0)+1);
+                ++right;
+            }
+            if(right<arr.length){
+                map2.put(arr[right],map2.getOrDefault(arr[right],0)+1);
+                if(map2.equals(map1)){
+                    ans.add(left);
+                }
+                if(map2.get(arr[left])==1)
+                    map2.remove(arr[left]);
+                else
+                    map2.put(arr[left],map2.get(arr[left])-1);
+                ++left;
+            }
+        }
+        return ans;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

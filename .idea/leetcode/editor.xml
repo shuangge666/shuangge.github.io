@@ -341,6 +341,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/PermutationInString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/PermutationInString.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/PermutationInString.java" />
+              <option name="questionId" value="567" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/PingHengErChaShuLcof.java">
           <value>
             <LeetcodeEditor>

@@ -67,7 +67,24 @@ class Solution {
     public int ans=0;
     public int k=0;
     public int maxScore(int[] cardPoints, int k) {
-        return 0;
+        //每次只能从开头和末尾拿元素，那么剩下的cardPoints.length-k个元素一定是连续的，要求K的元素和最大，就是求
+        //剩余元素的和最小，滑动窗口
+        int left=0,right=0,sum=0;
+        int ans=Integer.MAX_VALUE;
+        int total=0;
+        for(int v:cardPoints)total+=v;
+        if(k==cardPoints.length)return total;//注意特殊情况，当k=cardPoints,length时，直接返回数组和
+        for(;right<cardPoints.length;++right){
+            while(right<cardPoints.length&&right-left+1<=cardPoints.length-k){
+                sum+=cardPoints[right];
+                ++right;
+            }
+            ans=Math.min(ans,sum);
+            --right;
+            sum-=cardPoints[left];
+            ++left;
+        }
+        return total-ans;
     }
     //回溯法超时
     public void dfs(int[]nums,int cnt,int left,int right,int sum){

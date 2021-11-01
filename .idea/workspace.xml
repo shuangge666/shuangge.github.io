@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
-      <change afterPath="$PROJECT_DIR$/src/streamStudy/BigDecimalStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamStudy/tt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/BigDecimalStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/BigDecimalStudy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/Tuple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamStudy/BigDecimalStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamStudy/BigDecimalStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +170,8 @@
       <workItem from="1635167741184" duration="3036000" />
       <workItem from="1635338781468" duration="4640000" />
       <workItem from="1635381952623" duration="10000" />
-      <workItem from="1635667032317" duration="12751000" />
+      <workItem from="1635667032317" duration="15876000" />
+      <workItem from="1635726880686" duration="3700000" />
     </task>
     <task id="LOCAL-00001" summary="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
       <created>1634441156083</created>

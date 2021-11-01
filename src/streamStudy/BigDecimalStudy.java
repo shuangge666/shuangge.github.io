@@ -29,8 +29,9 @@ public class BigDecimalStudy {
                         cc = new BigDecimal(Double.toString(r));
                         BigDecimal x0 = (pp.multiply(cc).add(qq)).divide(cc.add(rr), 51, BigDecimal.ROUND_HALF_UP);
                         BigDecimal x1 = new BigDecimal(Double.toString(0.5)).multiply(x0.add(cc.divide(x0, 51, BigDecimal.ROUND_HALF_UP)));
-                        BigDecimal tmp = x1.subtract(cc.sqrt(mc)).divide(x1.add(cc.sqrt(mc)), 51, BigDecimal.ROUND_HALF_UP);
-                        if (tmp.compareTo(flag_max) < 0) {
+//                        BigDecimal tmp = x1.subtract(cc.sqrt(mc)).divide(x1.add(cc.sqrt(mc)), 51, BigDecimal.ROUND_HALF_UP);
+                        BigDecimal tmp=x1.subtract(cc.sqrt(mc)).divide(new BigDecimal("2").multiply(cc.sqrt(mc)),51,BigDecimal.ROUND_HALF_UP);
+                        if (tmp.compareTo(flag_max) > 0) {
                             flag_max = tmp;
                         }
 

@@ -65,18 +65,30 @@ public class LastStoneWeightIi{
 class Solution {
     public int lastStoneWeightII(int[] stones) {
         //要求最后一块石头的重量，就是将石头分为重量最接近的两堆，求出其中一对能够装的最大价值，另一堆的最大价值就是sum-前一堆的最大价值
+//        int sum=0;
+//        for(int v:stones)
+//            sum+=v;
+//        int goal=sum/2;
+//        int[]dp=new int[goal+1];
+//        dp[0]=0;
+//        for(int i=0;i<stones.length;++i){
+//            for(int j=goal;j>=stones[i];--j){
+//                dp[j]=Math.max(dp[j],dp[j-stones[i]]+stones[i]);
+//            }
+//        }
+//        return (sum-dp[goal])-dp[goal];
         int sum=0;
-        for(int v:stones)
-            sum+=v;
-        int goal=sum/2;
-        int[]dp=new int[goal+1];
+        int ans=0;
+        for(int i:stones)sum+=i;
+        int target=sum/2;
+        int[]dp=new int[target+1];
         dp[0]=0;
-        for(int i=0;i<stones.length;++i){
-            for(int j=goal;j>=stones[i];--j){
+        for(int i=0;i<stones.length;++i)
+            for(int j=target;j>=stones[i];--j){
                 dp[j]=Math.max(dp[j],dp[j-stones[i]]+stones[i]);
             }
-        }
-        return (sum-dp[goal])-dp[goal];
+        ans=Math.abs(sum-dp[target]-dp[target]);
+        return ans;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -1,3 +1,7 @@
+# 重要知识点
+## 1. 集合的remove((Object)obj)方法只移除一个值为obj的元素，如果集合中有多个值为obj的元素，  
+也只会移除一个obj
+
 # 重要题目
 ### 1.MaximumWidthOfBinaryTree
 这道题目是bfs的典型应用，其中每层元素出队的操作以及通过queue.size()求解当前层的个数很重要
@@ -123,3 +127,26 @@ https://leetcode-cn.com/problems/longest-repeating-character-replacement/solutio
 
 ### 10. 424题同类型题目之一：1004 最大连续的1的个数III
 这道题和上面一题非常相似，只不过这道题简单多了，用一个变量维护窗口中的1的个数即可
+
+### 11.978 最长湍流子数组
+用动态规划注意要定义两个数组，具体看：
+https://leetcode-cn.com/problems/longest-turbulent-subarray/solution/yi-zhang-dong-tu-xiang-jie-dong-tai-gui-wrwvn/
+
+### 12. 剑指offer48  最长不含重复字符的子字符串
+<b>“子字符串、子数组”问题有三种常用解法：滑动窗口、前缀和以及动态规划</b>
+本题使用滑动窗口很容易解出来，但是在使用动态规划的过程中，我做了有点久，从2022/1/21晚上(带有摸鱼)  
+到了2022/1/22上午，调了好久的bug。动态规划思路：
+使用一个map维护区间[i-dp[i-1],i-1]中每个出现的字符，如果s.charAt(i)在这个map中
+，那么说明dp[i]不能直接由dp[i-1]+1得到，那么dp[i]是区间[map.get(s.charAt(i))+1,i]这个区间的长度，
+因为这段区间内没有重复字符，区间长度为i-map.get(s.charAt(i));否则如果s.charAt(i)不在这个map中，则
+dp[i]=dp[i-1]+1，并且把s.charAt(i)加入map即可。
+<i><b>这种子串、子数组问题的dp[]数组定义，基本都是以s.charAt(i)结尾的子串的长度......</b></i>
+
+### 13. 剑指offer59 滑动窗口的最大值
+这道题和剑指offer48  最长不含重复字符的子字符串的动态规划解法类似的地方在于：  
+使用一个动态数据结构维护一段区间。  
+本题是使用一个优先级队列维护滑动窗口，从而可以在log级别取出滑动窗口中的最大值；  
+而上一题是使用HashMap维护dp[i-1]所代表的无重复字符的区间的每个字符最新出现的位置；  
+
+### 14. 1049最后一块石头的重量以及494目标和
+这两道题都是“计算表达式”类型题目。

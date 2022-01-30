@@ -58,18 +58,40 @@ public class LongestSubstringWithoutRepeatingCharacters{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        Map<Character,Integer> map=new HashMap<>();
-        int left=0,right=0,cnt=0,len=0;//cnt记录窗口中字符的种类数
-        while(right<s.length()) {
-            map.put(s.charAt(right),map.getOrDefault(s.charAt(right),0)+1);
-            while(map.get(s.charAt(right))>1){
-                map.put(s.charAt(left),map.get(s.charAt(left))-1);
-                ++left;
+//        Map<Character,Integer> map=new HashMap<>();
+//        int left=0,right=0,cnt=0,len=0;//cnt记录窗口中字符的种类数
+//        while(right<s.length()) {
+//            map.put(s.charAt(right),map.getOrDefault(s.charAt(right),0)+1);
+//            while(map.get(s.charAt(right))>1){
+//                map.put(s.charAt(left),map.get(s.charAt(left))-1);
+//                ++left;
+//            }
+//            len=Math.max(len,(right-left+1));
+//            ++right;
+//        }
+//        return len;
+        return getAns(s);
+    }
+
+    public int getAns(String s){
+        if(s.length()==0)return 0;
+        Map<Character,Integer>map=new HashMap<>();
+        int left=0,right=0;
+        int ans=Integer.MIN_VALUE;
+        for(;right<s.length();++right){
+            if(map.containsKey(s.charAt(right))==false){
+                map.put(s.charAt(right),1);
+                ans=Math.max(ans,right-left+1);
             }
-            len=Math.max(len,(right-left+1));
-            ++right;
+            else{
+                while(left<right&&map.containsKey(s.charAt(right))){
+                    map.remove(s.charAt(left));
+                    ++left;
+                }
+                map.put(s.charAt(right),1);
+            }
         }
-        return len;
+        return ans;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

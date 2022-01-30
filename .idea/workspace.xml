@@ -2,11 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5974c456-d795-4b16-85ba-32dde0f53552" name="Default Changelist" comment="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
-      <change afterPath="$PROJECT_DIR$/src/streamStudy/tt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalAlgorithmStudy/GraphBFSStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalAlgorithmStudy/GraphCreate4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalAlgorithmStudy/GraphDFSStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalAlgorithmStudy/PriorityQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalAlgorithmStudy/StringCOncat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BinarySubarraysWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CountSpecialQuadruplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FruitIntoBaskets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HuaDongChuangKouDeZuiDaZhiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LongestTurbulentSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/New21Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/NumberOfDiceRollsWithTargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShoppingOffers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/SubarrayProductLessThanK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/SubstringWithConcatenationOfAllWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/TwoVG8Kg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZVAVXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/AddTwoNumbers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/BinarySubarraysWithSum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/CountSpecialQuadruplets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/FruitIntoBaskets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/HuaDongChuangKouDeZuiDaZhiLcof.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/LastStoneWeightIi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/LongestTurbulentSubarray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/New21Game.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/NumberOfDiceRollsWithTargetSum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ShoppingOffers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/SlidingWindowMaximum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/SubarrayProductLessThanK.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/SubstringWithConcatenationOfAllWords.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/TargetSum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/TwoVG8Kg.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ZVAVXX.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamStudy/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamStudy/ThreadStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/BigDecimalStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/BigDecimalStudy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/streamStudy/Tuple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streamStudy/BigDecimalStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamStudy/BigDecimalStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/LastStoneWeightIi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LastStoneWeightIi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +99,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.BigDecimalStudy">
-    <configuration name="BigDecimalStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamStudy.BigDecimalStudy" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="streamStudy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PriorityQueueTest">
+    <configuration name="GraphBFSStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NormalAlgorithmStudy.GraphBFSStudy" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamStudy.*" />
+          <option name="PATTERN" value="NormalAlgorithmStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.LongestPalindromicSubstring" />
+    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NormalAlgorithmStudy.PriorityQueueTest" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NormalAlgorithmStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.SlidingWindowMaximum" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapEqualsStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamStudy.MapEqualsStudy" />
+    <configuration name="StringCOncat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NormalAlgorithmStudy.StringCOncat" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamStudy.*" />
+          <option name="PATTERN" value="NormalAlgorithmStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,25 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamStudy.Test" />
+    <configuration name="ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamStudy.TreeSetStudy" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streamStudy.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BigDecimalStudy" />
-        <item itemvalue="Application.MapEqualsStudy" />
-        <item itemvalue="Application.TreeSetStudy" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof" />
+        <item itemvalue="Application.StringCOncat" />
+        <item itemvalue="Application.SlidingWindowMaximum" />
+        <item itemvalue="Application.PriorityQueueTest" />
+        <item itemvalue="Application.GraphBFSStudy" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +221,24 @@
       <workItem from="1635381952623" duration="10000" />
       <workItem from="1635667032317" duration="15876000" />
       <workItem from="1635726880686" duration="3700000" />
+      <workItem from="1636963859149" duration="1656000" />
+      <workItem from="1637465786165" duration="1000" />
+      <workItem from="1637626009117" duration="9000" />
+      <workItem from="1637904384447" duration="2895000" />
+      <workItem from="1642154142913" duration="860000" />
+      <workItem from="1642304562629" duration="5963000" />
+      <workItem from="1642339711025" duration="7404000" />
+      <workItem from="1642428602509" duration="4157000" />
+      <workItem from="1642481548527" duration="4495000" />
+      <workItem from="1642503866132" duration="1510000" />
+      <workItem from="1642586720158" duration="9326000" />
+      <workItem from="1642650515566" duration="1393000" />
+      <workItem from="1642779433184" duration="4020000" />
+      <workItem from="1642821327679" duration="6417000" />
+      <workItem from="1642905804657" duration="2556000" />
+      <workItem from="1643204796150" duration="3521000" />
+      <workItem from="1643253338208" duration="4305000" />
+      <workItem from="1643424991391" duration="3867000" />
     </task>
     <task id="LOCAL-00001" summary="2021.10.16-2021.10.17上午刷题，主要是背包问题，刷到了打家劫舍">
       <created>1634441156083</created>
